@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Module 5 Project</title>
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<link rel="stylesheet" href="themes/projectTheme.css" />
+<link rel="stylesheet" href="themes/jquery.mobile.icons.min.css" />
+<link href="styles/custom.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+<script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+<script src="http://ajax.aspnetcdn.com/ajax/mobileservices/MobileServices.Web-1.2.5.min.js"></script>
+
+</head>
+<body>
+
+		<div id="page" data-role="page" data-theme="f" data-add-back-btn="true">
+			<div data-role="header" data-theme="f">
+			</div>
+			<div data-role="panel" id="myPanel">
+
+			<h2>Panel Header</h2>
+			<ul data-role="listview" data-theme="f">
+			<li class="menu"><a href="#form">Form</a></li>
+			<li class="menu"><a href="#grid">Grid</a></li>
+			<li class="menu"><a href="#favorites">Favorites</a></li>
+			<li class="menu"><a href="#userfave">User's Favorite</a></li>
+			</ul>
+
+			<p>You can close this panel by clicking outside of it, pressing the Esc key, or by swiping.</p>
+
+			</div>
+		<!-- This is the header of the page -->
+
+
+		<div data-role="header">
+				<div class="logo"><img src="images/musiclogo.png" width="100" height="100" alt="" align="right"/></div>
+			<h1>My Favorite Musical Artists</h1>
+			<a href="#myPanel" class="ui-btn ui-btn-inline">Open Panel</a>
+		</div>
+<br>
+<br>
+		<!-- This is the main part of page with a paragraph and image -->
+			<div data-role="main" class="ui-content" align="center">
+				<p>This is my mobile site outlining my favorite musical artists. My first
+					page contains my 3 favorite rock artists. My second page conatins my
+					3 favorite comedy artists. I grew up listening and loving rock music
+				  because of my older brother and sister. They had a huge influence on
+				  me. When I met my husband is when I started listening to comedic artists.
+				  My Husband loves comedy and has opened my eyes to how fun it is to watch
+				  and listen to!</p>
+    		</div>
+
+
+			<div data-role="content">
+				<ul data-role="listview" data-theme="f">
+					<li><a href="#reason1">Rock Bands</a></li>
+		      <li><a href="#reason2">Comedy Artists</a></li>
+					<li><a href="#form">Form</a></li>
+					<li><a href="#grid">Grid</a></li>
+					<a href="http://www.boburnham.com/"data-inline="true", data-role="button", data-icon="star">Bo Burnham's Website</a>
+					<a href="https://open.spotify.com/album/0tJI0EBOHEcxov6V1ddIo7"data-inline="true", data-role="button", data-icon="star" >Starset's New Album</a>
+					<a href="https://open.spotify.com/playlist/2aj1N4l8KcwKngL4o630ro" data-inline="true", data-role="button", data-icon="star">Favorite Spotify Playlist</a>
+					<a href="https://open.spotify.com/artist/1Ffb6ejR6Fe5IamqA5oRUF" data-inline="true", data-role="button", data-icon="star">Bring Me The Horizon's Music</a>
+
+				</ul>
+
+</div>
+
+			<div data-role="footer" data-theme="f">
+			  <h4>Mandy's Favorite Music &copy; 2022</h4>
+			</div>
+		</div>
+
+		<div id="reason1" data-role="page" data-theme="f" data-add-back-btn="true">
+			<div data-role="header" data-theme="f" data-add-back-btn="true">
+			  <h1>Rock Bands</h1>
+			</div>
+			<div data-role="content">
+			  <h3>Starset</h3>
+			  <p>  </p>
+			</div>
+			<div data-role="content">
+			  <h3>I Prevail</h3>
+			  <p>  </p>
+			</div>
+			<div data-role="content">
+			  <h3>Bring Me The Horizon</h3>
+			  <p>  </p>
+			</div>
+			<div data-role="content">
+				<ul data-role="listview" data-theme="f" data-filter="true" data-icon="forward">
+					<li><a href="https://open.spotify.com/album/3mptvwc49sVgmxP5xIv7UN">Best Starset Album</a></li>
+		      <li><a href="https://open.spotify.com/album/2QRU8jGOJHDMrCTPKIHVik">Best I Prevail Album</a></li>
+					<li><a href="https://open.spotify.com/album/0e1WaSNDZnoPixaxDNdWo4">Best Bring Me The Horizon Album</a></li>
+				</ul>
+				</div>
+
+			<div data-role="footer" data-theme="f">
+			  <h4>Mandy's Favorite Music &copy; 2022</h4>
+			</div>
+		</div>
+
+		<div id="reason2" data-role="page" data-theme="f" data-add-back-btn="true">
+			<div data-role="header" data-theme="f" data-add-back-btn="true">
+				<h1>Comedy Artists</h1>
+			</div>
+			<div data-role="content">
+			  <h3>Bo Burnham</h3>
+			  <p> </p>
+			</div>
+			<div data-role="content">
+			  <h3>Macklemore</h3>
+			  <p> </p>
+			</div>
+			<div data-role="content">
+			  <h3>Lonely Island</h3>
+			  <p> </p>
+			</div>
+			<div data-role="content">
+				<ul data-role="listview" data-theme="f" data-filter="true" data-icon="forward">
+					<li><a href="https://open.spotify.com/album/1e5OlE0EY5fucq6GIU1xi3">Best Bo Burnham Album</a></li>
+		      <li><a href="https://open.spotify.com/album/2P2atUi0aJN6ToT1zsgVQR">Best Macklemore Album</a></li>
+					<li><a href="https://open.spotify.com/album/4IMJWEfkidwtzLanLMAtLP">Best Lonely Island Album</a></li>
+				</ul>
+				</div>
+			<div data-role="footer" data-theme="f">
+				<h4>Mandy's Favorite Music &copy; 2022</h4>
+			</div>
+		</div>
+
+		<div data-role="page" id="form" data-theme="f" data-add-back-btn="true">
+		  <div data-role="header" data-theme="f" data-add-back-btn="true">
+		    <h1>Form</h1>
+		  </div>
+
+				<div data-role="content">
+
+				  Please fill out the information below:
+				</p>
+					<textarea placeholder="First name" autofocus></textarea>
+					<textarea placeholder="Last name" autofocus></textarea>
+					<textarea placeholder="Birth month" autofocus></textarea>
+					<textarea placeholder="Email address" autofocus></textarea>
+
+				</div>
+
+			<fieldset data-role="controlgroup">
+					<legend>Favorite Color:</legend>
+					<input type="checkbox" name="checkbox-v-2a" id="checkbox-v-2a">
+					<label for="checkbox-v-2a">Green</label>
+					<input type="checkbox" name="checkbox-v-2b" id="checkbox-v-2b">
+					<label for="checkbox-v-2b">Purple</label>
+					<input type="checkbox" name="checkbox-v-2c" id="checkbox-v-2c">
+					<label for="checkbox-v-2c">Blue</label>
+					<input type="checkbox" name="checkbox-v-2d" id="checkbox-v-2d">
+					<label for="checkbox-v-2d">Red</label>
+					<input type="checkbox" name="checkbox-v-2e" id="checkbox-v-2e">
+					<label for="checkbox-v-2e">Other</label>
+					<input type="submit" value="Submit Button">
+				</fieldset>
+
+		  <div data-role="footer" data-theme="f">
+		    <h4>Mandy's Favorite Music &copy; 2022</h4>
+		  </div>
+
+</div>
+
+<div data-role="page" id="grid" data-theme="f" data-add-back-btn="true">
+<div data-role="header" data-theme="f" data-add-back-btn="true">
+<h1>Grid</h1>
+</div>
+<div data-role="content">
+<div class="ui-grid-c">
+<div class="ui-block-a"><div class="ui-bar ui-bar-a"><img src="images/bo1.jpeg" style="height:200px""width:400px" align="center"></div></div>
+<div class="ui-block-b"><div class="ui-bar ui-bar-a"><img src="images/starset.jpeg" style="height:200px""width:400px" align="center"></div></div>
+<div class="ui-block-c"><div class="ui-bar ui-bar-a"><img src="images/bmth.jpg" style="height:200px""width:400px" align="center"></div></div>
+<div class="ui-block-d"><div class="ui-bar ui-bar-a"><img src="images/iprevail.jpg" style="height:200px""width:400px" align="center"></div></div>
+</div><!-- /grid-a -->
+
+</div>
+
+
+			<!-- This is the footer of the page -->
+		<div data-role="footer" data-theme="f">
+			<h4>Mandy's Favorite Music &copy; 2022</h4>
+		</div>
+</div>
+<div data-role="page" id="userfave" data-theme="f" data-add-back-btn="true">
+	<div data-role="header" data-theme="f" data-add-back-btn="true">
+		<h1>Your Favorites</h1>
+	</div>
+
+		<div data-role="content">
+
+			Tell me what your favorite bands or artists are below!
+		</p>
+			<textarea class="userstorage" placeholder="Enter your favorites here." autofocus></textarea>
+			<button class="clear">Clear localStorage</button>
+			<button class="empty">Empty localStorage</button>
+
+		</div>
+
+	<div data-role="footer" data-theme="f">
+		<h4>Mandy's Favorite Music &copy; 2022</h4>
+	</div>
+
+</div>
+
+<div data-role="page" id="favorites" data-theme="f" data-add-back-btn="true">
+	<div data-role="header" data-theme="f" data-add-back-btn="true">
+		<h1>Your Favorites</h1>
+	</div>
+
+		<div data-role="content">
+
+			Here's a list of my favorite states to visit:
+			<p id="localstorage"></p>
+
+
+	<div data-role="footer" data-theme="f">
+		<h4>Mandy's Favorite Music &copy; 2022</h4>
+	</div>
+
+</div>
+
+</body>
+</html>
+<script>
+
+localStorage.setItem("name","Utah, Colorado, and California");
+document.getElementById("localstorage").innerHTML = localStorage.getItem("name");
+
+
+(function() {
+var userFave = document.querySelector('.userstorage');
+function supportsLocalStorage() {
+return typeof(Storage)!== 'undefined';
+}
+
+if (!supportsLocalStorage()) {
+userFave.value = 'Your browser does not support localStorage.';
+} else {
+try {
+setInterval(function() {
+localStorage.setItem('autosave', userFave.value);
+}, 1000);
+} catch (e) {
+if (e == QUOTA_EXCEEDED_ERR) {
+alert('Quota exceeded!');
+}
+}
+
+if (localStorage.getItem('autosave')) {
+userFave.value = localStorage.getItem('autosave');
+}
+document.querySelector('.clear').onclick = function() {
+userFave.value = '';
+localStorage.removeItem('autosave');
+};
+
+document.querySelector('.empty').onclick = function() {
+userFave.value = '';
+localStorage.clear();
+};
+}
+})();
+
+</script>
